@@ -23,7 +23,7 @@ export function Technology() {
           </div>
           <h2 className="text-3xl font-bold mb-6">Advanced Image Analysis</h2>
           <p className="text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">
-            Our proprietary spectral imaging algorithms detect plant stress long before it's visible to the human eye. By analyzing thousands of high-resolution images captured by our drone fleet, we identify nutrient deficiencies, pest infestations, and irrigation inconsistencies with 98.4% accuracy.
+            Our proprietary spectral imaging algorithms detect plant stress long before it's visible to the human eye. By analyzing thousands of high-resolution images captured by our drone fleet, we identify nutrient deficiencies, pest infestations, and irrigation inconsistencies with high accuracy.
           </p>
           <ul className="space-y-4">
             <li className="flex gap-3">
@@ -88,15 +88,15 @@ export function Technology() {
             </p>
             <div className="grid grid-cols-2 gap-6">
               <div className="border-l-2 border-primary pl-4">
-                <div className="text-2xl font-bold text-white">25%</div>
+                <div className="text-2xl font-bold text-white">Proven</div>
                 <div className="text-xs text-slate-500 uppercase font-bold">Yield Increase</div>
               </div>
               <div className="border-l-2 border-primary pl-4">
-                <div className="text-2xl font-bold text-white">40%</div>
+                <div className="text-2xl font-bold text-white">Significant</div>
                 <div className="text-xs text-slate-500 uppercase font-bold">Water Saved</div>
               </div>
               <div className="border-l-2 border-primary pl-4">
-                <div className="text-2xl font-bold text-white">15%</div>
+                <div className="text-2xl font-bold text-white">Substantial</div>
                 <div className="text-xs text-slate-500 uppercase font-bold">Less Input Cost</div>
               </div>
               <div className="border-l-2 border-primary pl-4">

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export function Services() {
   return (
     <main className="flex-1">
@@ -18,25 +20,25 @@ export function Services() {
                 <span className="material-symbols-outlined text-sm">precision_manufacturing</span>
                 Genetic Purity
               </div>
-              <h2 className="text-3xl font-bold md:text-4xl">Detasseling Process</h2>
-              <p className="text-lg text-slate-600 dark:text-slate-400">Our automated detasseling service ensures unmatched seed quality by combining cutting-edge robotics with real-time field data.</p>
+              <h2 className="text-3xl font-bold md:text-4xl">AI-based Tassel Detection</h2>
+              <p className="text-lg text-slate-600 dark:text-slate-400">Our automated detasseling service ensures unmatched hybrid seed purity for Maize by combining cutting-edge drones and AI with real-time field data.</p>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <span className="material-symbols-outlined mt-1 text-primary">check_circle</span>
-                  <span><strong>Centimeter-Level Accuracy:</strong> Precise removal of tassels to prevent self-pollination.</span>
+                  <span><strong>Centimeter-Level Accuracy:</strong> Achieve maximum detasseling across entire fields with centimeter-level accuracy using a user-friendly application for plucking, eliminating human error, and ensuring consistent hybrid seed quality.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="material-symbols-outlined mt-1 text-primary">check_circle</span>
-                  <span><strong>Optimal Timing:</strong> AI-driven scheduling to hit the narrow 48-hour window for maximum genetic purity.</span>
+                  <span><strong>AI-Powered Real-Time Detection:</strong> Our AI model intelligently distinguishes tassels from foliage in real-time, adapting to varying crop conditions for highly reliable results.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="material-symbols-outlined mt-1 text-primary">check_circle</span>
-                  <span><strong>Minimal Crop Damage:</strong> Non-invasive sensors ensure the surrounding foliage remains untouched.</span>
+                  <span><strong>Drone-Enabled Scalability:</strong> High-efficiency drone operations cover vast acreage quickly, reducing labor dependence while maintaining consistent hybrid seed purity.</span>
                 </li>
               </ul>
             </div>
             <div className="flex-1">
-              <div className="aspect-video overflow-hidden rounded-2xl shadow-2xl bg-slate-200 dark:bg-slate-800 bg-cover bg-center" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDQMkxNs5g8K33j0nXUsZ4to0njf3NxCC3TXvrOPW46kBJl_D9lTRyb64QteZyvwKVCmspE-Gv_OjFPTlIQKVeKXHRXyinKJXF-IVHZHXWX6X0n9V8wga37UH3QMvgW4_j3GWgWkAz8mC5XkKcyhmo7eVooFL79-MNxxnqksiS3cS3A75ClvfwWxZi7xci5d8LayTH-CG7JRKNLaXwn1SMHwJcvuyFm8HOO6TfC_f3m_o3KdIkjhq93MVd32TZJKx9Fy0hDjQLNYvTb')" }}></div>
+              <div className="aspect-video overflow-hidden rounded-2xl shadow-2xl bg-slate-200 dark:bg-slate-800 bg-cover bg-center" style={{ backgroundImage: "url('/maize-field.jpg')" }}></div>
             </div>
           </div>
 
@@ -44,22 +46,21 @@ export function Services() {
             <div className="flex-1 space-y-6">
               <div className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 text-sm font-bold text-primary">
                 <span className="material-symbols-outlined text-sm">analytics</span>
-                Quality Grading
+                Quality Consistency
               </div>
-              <h2 className="text-3xl font-bold md:text-4xl">Tea Flush Bud Analysis</h2>
-              <p className="text-lg text-slate-600 dark:text-slate-400">Leverage multispectral imaging to identify the perfect stage for tea leaf harvesting. We transform visual data into actionable picking schedules.</p>
+              <h2 className="text-3xl font-bold md:text-4xl">Tea Plantation Services</h2>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <span className="material-symbols-outlined mt-1 text-primary">check_circle</span>
-                  <span><strong>Bud Maturity Mapping:</strong> Real-time identification of "two leaves and a bud" for premium grading.</span>
+                  <span><strong>High-Precision Aerial Mapping:</strong> Generate accurate block-, division-, and estate-level digital maps for better planning, monitoring, and resource allocation across plantations.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="material-symbols-outlined mt-1 text-primary">check_circle</span>
-                  <span><strong>Yield Forecasting:</strong> Precise estimates of harvest volume to optimize processing plant operations.</span>
+                  <span><strong>Data-Driven Fertiliser Optimisation:</strong> Multispectral imagery analyzes plant health and nutrient needs, reducing input costs while ensuring consistent, high-quality yield.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="material-symbols-outlined mt-1 text-primary">check_circle</span>
-                  <span><strong>Health Monitoring:</strong> Early detection of pests and nutrient deficiencies across vast plantations.</span>
+                  <span><strong>AI-Based Flush Density Detection:</strong> Identify harvesting readiness and leaf density in real-time, enabling smarter labour deployment and improved picking efficiency.</span>
                 </li>
               </ul>
             </div>
@@ -72,27 +73,26 @@ export function Services() {
             <div className="flex-1 space-y-6">
               <div className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 text-sm font-bold text-primary">
                 <span className="material-symbols-outlined text-sm">schedule</span>
-                Peak Maturity
+                Digital Transformation
               </div>
-              <h2 className="text-3xl font-bold md:text-4xl">On-Time Harvesting</h2>
-              <p className="text-lg text-slate-600 dark:text-slate-400">Synchronized logistics and peak maturity monitoring to ensure your crops reach the market at their highest value.</p>
+              <h2 className="text-3xl font-bold md:text-4xl">Oil Palm Management Services</h2>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <span className="material-symbols-outlined mt-1 text-primary">check_circle</span>
-                  <span><strong>Real-time Logistics:</strong> Coordination of machinery and transport based on hourly crop maturity updates.</span>
+                  <span><strong>Digital Tree Inventory Auditing:</strong> Build a precise, geo-tagged database of every palm tree and farm.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="material-symbols-outlined mt-1 text-primary">check_circle</span>
-                  <span><strong>Post-Harvest Quality:</strong> Reduced transit times to preserve freshness and nutritional value.</span>
+                  <span><strong>Targeted Fertiliser Optimisation:</strong> Use aerial and AI-driven insights to apply nutrients tree-by-tree, reducing wastage while maximizing productivity.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="material-symbols-outlined mt-1 text-primary">check_circle</span>
-                  <span><strong>Waste Minimization:</strong> Eliminate over-ripening or premature picking through data-backed decisions.</span>
+                  <span><strong>Structured Health Monitoring:</strong> Proactive quarterly or bi-annual digital health records enable year-on-year comparison, improving operational insights and management efficiency.</span>
                 </li>
               </ul>
             </div>
             <div className="flex-1">
-              <div className="aspect-video overflow-hidden rounded-2xl shadow-2xl bg-slate-200 dark:bg-slate-800 bg-cover bg-center" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDGnhGF-XWa4FgFMbPT6AC3egtA66zYRDG8JOjRTLtLjeeRSEYO-ZnNYO336VaOK3td-0sLIQOEoqKZmafOJzUOOwOLQhMNcZCQ8NvQP-wGiqJuaahp9IKnNgeiPoRctsxRYEY9W8vHFiWIyNV7QniKCXu7T6fvUK6goakUWGlwTQOHejNkw3s4r_--8wxOqX89g98cqq1_6fBZY9Gb_epf0CQQdZ2p1xrQB5GBaRBIvDy2Hrr-9-fUreVBSi-xNY9Ijb2_eoZ0yU5-')" }}></div>
+              <div className="aspect-video overflow-hidden rounded-2xl shadow-2xl bg-slate-200 dark:bg-slate-800 bg-cover bg-center" style={{ backgroundImage: "url('/oil-palm.jpg')" }}></div>
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@ export function Services() {
               <div className="mb-6 flex size-12 items-center justify-center rounded-xl bg-primary/20 text-primary">
                 <span className="material-symbols-outlined">trending_up</span>
               </div>
-              <h3 className="text-xl font-bold mb-3">25% Yield Increase</h3>
+              <h3 className="text-xl font-bold mb-3">Proven Yield Increase</h3>
               <p className="text-slate-600 dark:text-slate-400">By hitting precise biological windows, our clients see significant improvements in total harvestable volume.</p>
             </div>
             <div className="rounded-2xl bg-white dark:bg-slate-900 p-8 shadow-sm border border-primary/10">
@@ -124,7 +124,7 @@ export function Services() {
                 <span className="material-symbols-outlined">payments</span>
               </div>
               <h3 className="text-xl font-bold mb-3">Cost Reduction</h3>
-              <p className="text-slate-600 dark:text-slate-400">Automated workflows reduce manual labor requirements and operational overhead by up to 40%.</p>
+              <p className="text-slate-600 dark:text-slate-400">Automated workflows reduce manual labor requirements and operational overhead significantly.</p>
             </div>
           </div>
         </div>
@@ -137,8 +137,8 @@ export function Services() {
             <h2 className="text-3xl font-bold md:text-4xl">Ready to optimize your harvest?</h2>
             <p className="mt-4 text-slate-300">Join the precision agriculture revolution today with SHYENA AGRI-TECH.</p>
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <button className="rounded-lg bg-primary px-8 py-4 text-lg font-bold text-slate-900 hover:bg-primary/90 transition-all">Schedule a Demo</button>
-              <button className="rounded-lg border border-white/20 px-8 py-4 text-lg font-bold hover:bg-white/10 transition-all">Contact Sales</button>
+              <Link to="/contact" className="rounded-lg bg-primary px-8 py-4 text-lg font-bold text-slate-900 hover:bg-primary/90 transition-all">Schedule a Demo</Link>
+              <Link to="/contact" className="rounded-lg border border-white/20 px-8 py-4 text-lg font-bold hover:bg-white/10 transition-all">Contact Sales</Link>
             </div>
           </div>
         </div>

@@ -32,7 +32,7 @@ export function Home() {
                 <span className="material-symbols-outlined text-3xl">insights</span>
               </div>
               <div>
-                <p className="text-2xl font-bold text-slate-900 dark:text-slate-100">25%+</p>
+                <p className="text-2xl font-bold text-slate-900 dark:text-slate-100">Proven</p>
                 <p className="text-xs text-slate-500 dark:text-slate-400 font-medium uppercase tracking-wider">Yield Increase</p>
               </div>
             </div>
@@ -54,11 +54,11 @@ export function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="group bg-background-light dark:bg-slate-800/40 p-8 rounded-2xl border border-primary/5 hover:border-primary/20 transition-all hover:shadow-xl">
               <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform">
-                <span className="material-symbols-outlined text-4xl">energy_savings_leaf</span>
+                <span className="material-symbols-outlined text-4xl">precision_manufacturing</span>
               </div>
-              <h4 className="text-xl font-bold mb-3 text-slate-900 dark:text-slate-100">Automated Detasseling</h4>
+              <h4 className="text-xl font-bold mb-3 text-slate-900 dark:text-slate-100">AI-based Tassel Detection</h4>
               <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
-                High-precision automated systems for seed corn production, ensuring genetic purity with minimal manual labor.
+                High-precision automated systems for seed corn production, ensuring genetic purity with minimal manual labor through real-time detection.
               </p>
               <Link to="/services" className="text-primary font-bold text-sm inline-flex items-center gap-2 group-hover:gap-3 transition-all">
                 Explore Service <span className="material-symbols-outlined text-sm">arrow_forward</span>
@@ -66,11 +66,11 @@ export function Home() {
             </div>
             <div className="group bg-background-light dark:bg-slate-800/40 p-8 rounded-2xl border border-primary/5 hover:border-primary/20 transition-all hover:shadow-xl">
               <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform">
-                <span className="material-symbols-outlined text-4xl">visibility</span>
+                <span className="material-symbols-outlined text-4xl">analytics</span>
               </div>
-              <h4 className="text-xl font-bold mb-3 text-slate-900 dark:text-slate-100">Tea Flush Bud Analysis</h4>
+              <h4 className="text-xl font-bold mb-3 text-slate-900 dark:text-slate-100">Tea Plantation Services</h4>
               <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
-                Advanced multi-spectral imaging to identify optimal tea plucking windows, maximizing leaf quality and harvest value.
+                Advanced multi-spectral imaging and AI-based flush density detection to identify optimal tea plucking windows and maximize leaf quality.
               </p>
               <Link to="/services" className="text-primary font-bold text-sm inline-flex items-center gap-2 group-hover:gap-3 transition-all">
                 Explore Service <span className="material-symbols-outlined text-sm">arrow_forward</span>
@@ -78,11 +78,11 @@ export function Home() {
             </div>
             <div className="group bg-background-light dark:bg-slate-800/40 p-8 rounded-2xl border border-primary/5 hover:border-primary/20 transition-all hover:shadow-xl">
               <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform">
-                <span className="material-symbols-outlined text-4xl">local_shipping</span>
+                <span className="material-symbols-outlined text-4xl">schedule</span>
               </div>
-              <h4 className="text-xl font-bold mb-3 text-slate-900 dark:text-slate-100">Optimized Harvesting</h4>
+              <h4 className="text-xl font-bold mb-3 text-slate-900 dark:text-slate-100">Oil Palm Management</h4>
               <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
-                Data-driven logistics and machinery coordination to reduce waste and optimize yield transport efficiency.
+                Digital tree inventory auditing and targeted fertiliser optimisation to reduce wastage and maximize productivity.
               </p>
               <Link to="/services" className="text-primary font-bold text-sm inline-flex items-center gap-2 group-hover:gap-3 transition-all">
                 Explore Service <span className="material-symbols-outlined text-sm">arrow_forward</span>
@@ -98,9 +98,9 @@ export function Home() {
             <div className="order-2 lg:order-1 relative">
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-4">
-                  <div className="h-64 rounded-2xl bg-cover bg-center" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuApoDwtbDV6NIABqiQsy44AeBq11XynaDho2W6bf7OOC7sLM37k-icvhi8JaHkqfTyml-gm9ccHH_--xWAxu3yRgffTcU7BtpBfx3g-CN1Xefs1vGY_xDq7rFmXBOChw3ieiiLJ_HgoeD9V5ey5l5zZc2eTHUJ2AodCroZdiwXJUrKnF-o3TWDlPdTd8oHuVFGzVR_ArC_FNL9Opia7pbvoWGlIgFL-Q6SRjHxtey1_hAPBa2XsHF36d5j7I7vf7hRbGvAL9yndD-V7')" }}></div>
+                  <div className="h-64 rounded-2xl bg-cover bg-center" style={{ backgroundImage: "url('/maize-field.jpg')" }}></div>
                   <div className="h-48 rounded-2xl bg-primary flex flex-col justify-end p-6">
-                    <p className="text-background-dark font-black text-3xl">98%</p>
+                    <p className="text-background-dark font-black text-3xl">High</p>
                     <p className="text-background-dark/80 text-sm font-bold">Accuracy Rate</p>
                   </div>
                 </div>
@@ -109,7 +109,7 @@ export function Home() {
                     <p className="text-white font-black text-3xl">15k+</p>
                     <p className="text-white/60 text-sm font-bold">Acres Analyzed</p>
                   </div>
-                  <div className="h-64 rounded-2xl bg-cover bg-center" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuB0ViVhpi8CfifOU_aOgRyGe9f--XLkWWVklaKwk4-t3JRO2ns39l2SAs6E26Ljb3swergSNAP8aSr3iQyd_RYUQYtEyFV1Z6XW1gxVbaqKwdunkQMqa9fIA2KsBKIdYFEypRd6TQbEqbTuLMCUKWy2aa3sSIo8mW_95PfY-ITwt5kMC3A-6hnsCrtMStw25gNIvimMeIfg0J0NOScXejX5WBuXEjoy6NGUodzn3IaYyqy2WFVY22sN9mo1b_MEF7el5747fY3xnyBi')" }}></div>
+                  <div className="h-64 rounded-2xl bg-cover bg-center" style={{ backgroundImage: "url('/oil-palm.jpg')" }}></div>
                 </div>
               </div>
             </div>
@@ -137,7 +137,7 @@ export function Home() {
                   </div>
                   <div>
                     <h5 className="font-bold text-slate-900 dark:text-slate-100">Operational Efficiency</h5>
-                    <p className="text-slate-500 dark:text-slate-400 text-sm">Reducing input costs by up to 30% through targeted resource allocation.</p>
+                    <p className="text-slate-500 dark:text-slate-400 text-sm">Reducing input costs through targeted resource allocation.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -163,32 +163,32 @@ export function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white dark:bg-slate-800 rounded-2xl overflow-hidden border border-primary/5 hover:border-primary/20 transition-all shadow-sm hover:shadow-xl">
-              <div className="h-48 bg-cover bg-center" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuAPjmPFlv8HhcJ64nl0M75P0GX5-hvGxL_3EEs2BJZ3AVQ-p3vSMxa3XgQrlZEmLSTpj3C9rjw1Mm9ajejDNdlmb71ETtyYOr8pEtpSjrY9nXtsgTrXav8TGuBzVQoRdOnUem2wgsjMHvirdrqLgaZoIiTLg4Xh_6uCVFRwwW7xUAzn6g3bOd16NPRb7lg4uu71qy8rvSH83kawZAIYt2Y1Y3Wn2aWmyxrYGdWVcqVkA76D4DVrTLZUFKafC_DacO6Rx-Nj32GaI1Mr')" }}></div>
+              <div className="h-48 bg-cover bg-center" style={{ backgroundImage: "url('/maize-field.jpg')" }}></div>
               <div className="p-8">
-                <span className="text-primary font-bold text-xs uppercase tracking-wider mb-2 block">Seed Corn Production</span>
-                <h4 className="text-xl font-bold mb-3 text-slate-900 dark:text-slate-100">Yield Increase in Corn</h4>
+                <span className="text-primary font-bold text-xs uppercase tracking-wider mb-2 block">Genetic Purity</span>
+                <h4 className="text-xl font-bold mb-3 text-slate-900 dark:text-slate-100">AI-based Tassel Detection</h4>
                 <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                  15% boost in harvest through precision detasseling and real-time monitoring of genetic purity across 5,000 acres.
+                  Our automated detasseling service ensures unmatched hybrid seed purity for Maize by combining cutting-edge drones and AI with real-time field data.
                 </p>
               </div>
             </div>
             <div className="bg-white dark:bg-slate-800 rounded-2xl overflow-hidden border border-primary/5 hover:border-primary/20 transition-all shadow-sm hover:shadow-xl">
-              <div className="h-48 bg-cover bg-center" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuApoDwtbDV6NIABqiQsy44AeBq11XynaDho2W6bf7OOC7sLM37k-icvhi8JaHkqfTyml-gm9ccHH_--xWAxu3yRgffTcU7BtpBfx3g-CN1Xefs1vGY_xDq7rFmXBOChw3ieiiLJ_HgoeD9V5ey5l5zZc2eTHUJ2AodCroZdiwXJUrKnF-o3TWDlPdTd8oHuVFGzVR_ArC_FNL9Opia7pbvoWGlIgFL-Q6SRjHxtey1_hAPBa2XsHF36d5j7I7vf7hRbGvAL9yndD-V7')" }}></div>
+              <div className="h-48 bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1542838686-37ed7a928b04?auto=format&fit=crop&w=800&q=80')" }}></div>
               <div className="p-8">
                 <span className="text-primary font-bold text-xs uppercase tracking-wider mb-2 block">Premium Tea Estates</span>
                 <h4 className="text-xl font-bold mb-3 text-slate-900 dark:text-slate-100">Tea Quality Enhancement</h4>
                 <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                  Improved bud maturity matching for a premium estate, resulting in a 25% increase in high-grade leaf exports.
+                  Improved bud maturity matching for a premium estate, resulting in a substantial increase in high-grade leaf exports.
                 </p>
               </div>
             </div>
             <div className="bg-white dark:bg-slate-800 rounded-2xl overflow-hidden border border-primary/5 hover:border-primary/20 transition-all shadow-sm hover:shadow-xl">
-              <div className="h-48 bg-cover bg-center" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuB0ViVhpi8CfifOU_aOgRyGe9f--XLkWWVklaKwk4-t3JRO2ns39l2SAs6E26Ljb3swergSNAP8aSr3iQyd_RYUQYtEyFV1Z6XW1gxVbaqKwdunkQMqa9fIA2KsBKIdYFEypRd6TQbEqbTuLMCUKWy2aa3sSIo8mW_95PfY-ITwt5kMC3A-6hnsCrtMStw25gNIvimMeIfg0J0NOScXejX5WBuXEjoy6NGUodzn3IaYyqy2WFVY22sN9mo1b_MEF7el5747fY3xnyBi')" }}></div>
+              <div className="h-48 bg-cover bg-center" style={{ backgroundImage: "url('/oil-palm.jpg')" }}></div>
               <div className="p-8">
-                <span className="text-primary font-bold text-xs uppercase tracking-wider mb-2 block">Large-Scale Operations</span>
+                <span className="text-primary font-bold text-xs uppercase tracking-wider mb-2 block">Oil Palm Management</span>
                 <h4 className="text-xl font-bold mb-3 text-slate-900 dark:text-slate-100">Efficiency Gain</h4>
                 <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                  20% reduction in labor costs for a large-scale farm by automating scouting and optimizing resource allocation.
+                  Reduction in labor costs and optimized resource allocation through digital tree inventory auditing and targeted fertiliser optimisation.
                 </p>
               </div>
             </div>
