@@ -10,7 +10,7 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 flex items-center justify-between border-b border-primary/10 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md px-6 lg:px-20 py-4">
       <Link to="/" className="flex items-center gap-3" onClick={closeMenu}>
-        <img src="/logo-new.png" alt="SHYENA AGRI-TECH Logo" className="h-16 w-16 object-contain" />
+        <img src="/logo-new.jpg" alt="SHYENA AGRI-TECH Logo" className="h-16 w-16 object-contain" />
         <h2 className="text-xl font-bold tracking-tight text-slate-900 dark:text-slate-100 uppercase">SHYENA AGRI-TECH</h2>
       </Link>
       
@@ -59,7 +59,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
         <div className="col-span-1 md:col-span-2 space-y-6">
           <div className="flex items-center gap-3">
-            <img src="/logo-new.png" alt="SHYENA AGRI-TECH Logo" className="h-12 w-12 object-contain" />
+            <img src="/logo-new.jpg" alt="SHYENA AGRI-TECH Logo" className="h-12 w-12 object-contain" />
             <h2 className="text-lg font-bold tracking-tight text-slate-900 dark:text-slate-100 uppercase">SHYENA AGRI-TECH</h2>
           </div>
           <p className="text-sm text-slate-500 dark:text-slate-400 max-w-sm">
